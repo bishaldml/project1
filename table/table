@@ -15,58 +15,6 @@
         <main>
                 <p>&nbsp;My name is Bishal Dhimal</p>
                 <p>I am from Nepal.</p>
-                <p>
-                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem fugit quas molestiae est dignissimos explicabo at molestias natus aspernatur voluptates eum consequuntur ab earum obcaecati corporis dolore iusto, nostrum unde!</p>
-            </font>
-                <br/>
-                <blockquote>
-                <p align="justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente optio, commodi aliquid possimus harum est, accusamus autem sit pariatur, cupiditate explicabo. Consectetur ex amet eius modi nemo facere porro dolor!
-                </blockquote>
-                </p>
-                <hr/>
-                <!-- html listing in unordered list-->
-                <h3>unordred list</h3>
-                <ul>
-                    <li>computer</li>
-                    <li>smart tv</li>
-                    <li>digital camera</li>
-                    <li>canon</li>
-                </ul>
-                <!--listing in ordered list-->
-                <h3>orderd list</h3>
-                <ol>
-                    <li>pencils</li>
-                    <li>eraser</li>
-                    <li>sharpner</li>
-                    <li>dot pen</li>
-                </ol>
-                <!--listing in defination list-->
-                <h3>defination/description list</h3>
-                    <dl>
-                        <dt>fruits</dt>
-                        <dd>apple mango 
-                            orange
-                            banana</dd>
-                        <dt>books</dt>
-                        <dd>maths</dd>
-                        <dd>oop</dd>
-                        <dd>dl</dd>
-                    </dl>
-                <hr/>
-                    <ol type="1" start="5">
-                        <li>bagmati
-                            <ol>
-                                <ol type ="A" start="3">
-                                <li>kathmandu</li>
-                                <li>lalitpur</li>
-                                <li>bhaktapur</li>
-                                </ol>
-                            </ol>
-                        </li>
-                        <li>mechi</li>
-                        <li>koshi</li>
-                    </ol>
-                    <hr/>
                     <h1 align ="center">TABLE FORMATE</h1>
                     <table border =1 width=1140px >
                         <tr>
