@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description"content="this is my website">
+        <title>Bishal's website</title>
+        <link href="http://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body bgcolor ="#ff0000" text="#00ff00" >
+        <div style="width:1140px;margin:auto auto;border:4px solid #eeffcc;min-height:800px;">
+        <!--comment in html-->
+        <a name ="top"> </a>
+        <header align="center">
+                <h1 align='center'> welcome to my website </h1>
+                <img src="images/download.jpg" alt="banner" title ="banner of website"/>
+        </header>
+        <main>
+                <p>&nbsp;My name is Bishal Dhimal</p>
+                <p>I am from Nepal.</p>
+                <p>
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem fugit quas molestiae est dignissimos explicabo at molestias natus aspernatur voluptates eum consequuntur ab earum obcaecati corporis dolore iusto, nostrum unde!</p>
+            </font>
+                <br/>
+                <blockquote>
+                <p align="justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente optio, commodi aliquid possimus harum est, accusamus autem sit pariatur, cupiditate explicabo. Consectetur ex amet eius modi nemo facere porro dolor!
+                </blockquote>
+                </p>
+                <hr/>
+                <!-- html listing in unordered list-->
+                <h3>unordred list</h3>
+                <ul>
+                    <li>computer</li>
+                    <li>smart tv</li>
+                    <li>digital camera</li>
+                    <li>canon</li>
+                </ul>
+                <!--listing in ordered list-->
+                <h3>ordered list</h3>
+                <ol>
+                    <li>pencils</li>
+                    <li>eraser</li>
+                    <li>sharpner</li>
+                    <li>dot pen</li>
+                </ol>
+                <!--listing in defination list-->
+                <h3>defination/description list</h3>
+                    <dl>
+                        <dt>fruits</dt>
+                        <dd>apple mango 
+                            orange
+                            banana</dd>
+                        <dt>books</dt>
+                        <dd>maths</dd>
+                        <dd>oop</dd>
+                        <dd>dl</dd>
+                    </dl>
+                <hr/>
+                    <ol type="1" start="5">
+                        <li>bagmati
+                            <ol>
+                                <ol type ="A" start="3">
+                                <li>kathmandu</li>
+                                <li>lalitpur</li>
+                                <li>bhaktapur</li>
+                                </ol>
+                            </ol>
+                        </li>
+                        <li>mechi</li>
+                        <li>koshi</li>
+                    </ol>
+                    <hr/>
+                    <h1 align ="center">TABLE FORMATE</h1>
+                    
+                    <table border =1 width=1140px id ="contact" >
+                    <thead>
+                        <tr>
+                            <th>SN</th>
+                            <th>name</th>
+                            <th>address</th>
+                            <th>contact</th>
+                       </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1.</td>
+                            <td>ram</td>
+                            <td>urlabari</td>
+                            <td>9804376670</td>
+                        </tr>
+                        <tr>
+                            <td>2.</td>
+                            <td>shyam</td>
+                            <td>bargaxi</td>
+                            <td>9804376671</td>
+                        </tr>
+                        <tr>
+                            <td>3.</td>
+                            <td>kam</td>
+                            <td>khaibachowk</td>
+                            <td>9804376672</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>sn</td>
+                            <th>name</th>
+                            <th>address</th>
+                            <th>contact</th>
+                        </tr>
+                    </tfoot>
+                    </table>
+                    <script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+                    <script src="http://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+                    <script>
+                        $(document).ready( function () {
+                        $('#contact').DataTable();
+                        } );
+                    </script>
+                      <!--layout design by nesting table concept-->
+                      <br/>
+                    <table>
+                        <td></td>
+                    </table>
+                    <table border=1>
+                        <tr>
+                            <td colspan=2>
+                                1
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>3</td>
+                        </tr>
+                    </table>
+                        <hr/>
+                        <table border=1>
+                            <tr>
+                                <td rowspan=2>1</td>
+                                <td>2</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>5</td>
+                            </tr>
+                        </table>
+                        <br/>
+                        <table>
+                            <tr>
+                                <td colspan=2>1</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                        
+                            </tr>
+                            <tr>
+                                    <td rowspan=2>4</td>
+                            </tr>
+                             <tr>
+                                 <td>3</td>
+                             </tr>
+                        </table>
+                        <br/>
+                        <table>
+                            <tr>
+                                <td>1</td>
+                                <td>2</td>
+                            </tr>
+                        </table>
+                    
+        </main>
+        <h1 align='center'> bye bye</h1>
+        <footer align="right">
+            &copy;2019, bishalsite.com, all right reserved.
+            <P align="center">
+                <a href ="#top">TOP </a>
+            </P>
+            <p align="center">
+                <a href ="https:// facebook.com" title="facebook">FACEBOOK</a>
+            </p>
+            <p align="center">
+                <a href="mailto.bishaldhimal321@gmail.com">E-mails</a>
+            </p>
+        </footer>
+        
+       </div>
+    </body>
+</html>
