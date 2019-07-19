@@ -1,8 +1,40 @@
+<!DOCTYPE html>
 <html>
 
 <head>
-    <title>abcd</title>
-    <link href="/style.css" rel="stylesheet" type="text/css">
+    <style>
+        /* Universal selector*/
+        * {
+            margin: 0%;
+            padding: 0%;
+
+        }
+
+        /* ID selector */
+        #container {
+            width: 1140px;
+            min-height: 800px;
+            margin: auto;
+        }
+
+        /* class selector */
+        .green {
+            color: 00ff00;
+            font-size: 20px;
+            border-bottom: 30px solid #access;
+        }
+
+        .red {
+            color: #ff000f;
+            font-size: 30px;
+            border: 4px dotted #access;
+        }
+
+        /& Type Selector */ body {
+            background-color: black;
+
+        }
+    </style>
 </head>
 
 <body>
@@ -19,9 +51,6 @@
         </p>
     </div>
     <!--container close-->
-</body>
-
-</html>
 </body>
 
 </html>
