@@ -52,3 +52,15 @@ function multiplication() {
         document.getElementById("multiplication").innerHTML += num + "x" + i + "=" + multiplication + "<br/>";
     }
 }
+function validation() {
+    var username, password;
+    username = loginfirm.name.value;
+    password = loginfirm.password.value;
+
+    if (username == "" && password= "")
+    {
+        document.getElementById("error").innerHTML = "All fields are requiored";
+        return false
+    }
+
+}
